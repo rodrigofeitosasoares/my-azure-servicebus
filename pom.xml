@@ -15,7 +15,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<description>MyAzure ServiceBus</description>
 	<developers>
-		<developer>
+		<developer> 
 			<name>Rodrigo Feitosa Soares</name>
 			<email>rodrigo.bradox@gmail.com</email>
 			<url>www.linkedin.com/in/rodrigofeitosasoares</url>
