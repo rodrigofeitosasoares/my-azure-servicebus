@@ -1,0 +1,64 @@
+#JAVA
+*.class
+*.log
+*.gz
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+### Package Files ###
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### Gradle temporary files ###
+**/.gradle
+target/
+
+### Eclipse files ###
+**/.project
+**/.classpath
+**/.settings/
+blog/bin/
+**/.tern-project
+
+### IntelliJ files ###
+**/*.iml
+**/.idea
+**/*.iws
+**/*.ipr
+.editorconfig
+
+### MACOS ###
+.DS_Store
+.idea
+*.iml
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+### MAVEN ###
+mvnw
+mvnw.cmd
+.mvn
+.factorypath
+
+### REDHAT ###
+.adoc
+
+### STS ###
+.sts4-cache
+
+### CUSTOM ###
+*.ignore

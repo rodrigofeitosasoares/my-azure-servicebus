@@ -1,1 +1,1 @@
-# myazure-servicebus
+# my-azure-servicebus
