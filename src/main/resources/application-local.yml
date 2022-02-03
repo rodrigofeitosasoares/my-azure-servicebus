@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+servicebus:
+  topico-teste:
+    name: ht-topico-teste
+    send: 
+      conn: Endpoint=sb://my-host.servicebus.windows.net/;SharedAccessKeyName=policy-send;SharedAccessKey=qRtcxczoyDqxrVzFlFMWizU6sWXsX2ENnm7w6t+dLKI=;EntityPath=ht-topico-teste
+    listen: 
+      conn: Endpoint=sb://my-host.servicebus.windows.net/;SharedAccessKeyName=policy-listen;SharedAccessKey=YrIeMikYULUJovDQaAh5BQKGV0tq/fKHTUCc0VTVMhc=;EntityPath=ht-topico-teste
+      subscription: subscription-teste
+  fila-teste:
+    name: ht-fila-teste
+    send:
+      conn: Endpoint=sb://my-host.servicebus.windows.net/;SharedAccessKeyName=policy-send;SharedAccessKey=5ViDAoFTbhowRnU5ttftFJJSzlbfun+UmonPjGWjFsU=;EntityPath=ht-fila-teste
+    listen:
+      conn: Endpoint=sb://my-host.servicebus.windows.net/;SharedAccessKeyName=policy-listen;SharedAccessKey=SL7io2Djskr1zhFKyaDImeiLcfWIscHsQRe62TScP48=;EntityPath=ht-fila-teste
